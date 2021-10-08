@@ -1,0 +1,98 @@
+.login-bg-color{
+    background: linear-gradient(313.78deg, #2855AE -3.15%, #7292CF 100%);
+    height: 100vh;
+}
+
+.login-formulario{
+    max-width: 37.5rem;
+}
+
+.login-formulario img{
+    width: 29.5rem;
+    margin: 8rem 5rem 0rem 3rem;
+}
+
+.login-formulario h2{
+    color: white;
+    font-size: var(3.4);
+    font-weight: 600;
+    margin-top: 2.3rem;
+    margin-left: 3rem;
+}
+
+.login-formulario h3{
+    color: rgb( 255, 255, 255);
+    font-size: 2rem;
+    font-weight: 400;
+    margin-top: 0.4rem;
+    margin-bottom: 3rem;
+    margin-left: 3rem;
+
+
+}
+/* FORMULARIO*/
+
+form{
+    background-color: #fff;
+    border-radius: 4rem 4rem 0rem 0rem;
+    display: flex;
+    flex-direction: column; 
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 3rem;
+
+    width: 100%;
+    height: auto;
+}
+
+form label{
+    color: var(--Great);
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+}
+
+form label input{
+    border: 0;
+    border-bottom: 1px solid var(--Great);
+    margin-top: 0.8rem;
+    outline: none;
+    height: 4rem;
+
+}
+form button{
+    
+    background: linear-gradient(313.78deg, #2855AE -3.15%, #7292CF 100%);
+    border: none;
+    display: block;
+    width: 100%;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    color: #fff;
+    height: 4rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+}
+
+form pre{
+    padding-left: 12rem;
+}
+
+
+
+/* forgot*/
+
+form a{
+    margin-bottom: 6rem;
+    text-decoration: none;
+    text-align: end;
+    font-size: 2rem;
+    color: var(--Great);
+    }
+
+ --azul1: #345fb4;
+    --azul2: #6789ca;
+    --gris1: #313131;
+    --gris2: #777777;
+    --gris3: #a5a5a5;

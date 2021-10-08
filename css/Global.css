@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px; /*unidades REM*/
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+:root{
+     --Blue: #2855AE;
+    --Blue2: #7292DF;
+    --White: #FFFFFF;
+    --Skyblue: #F5F6FC;
+    --Great: #CACACA;
+    --gradient:inear-gradient(313.78deg, #2855AE -3.15%, #7292CF 100%)
+    
+
+
+    /*Variables de tamaño*/
+    --h1: 37.5rem;
+    --h2: 51.3rem;
+    --h3: 37.5rem; 
+    --parrafo: 81.3rem; 
+    }
+
+    /*  Definición de las secciones  */
+    section{
+        max-width: 37.5;
+        height: auto;
+        margin: auto;
+
+        display: flex;
+        flex-direction: column;
+    }
